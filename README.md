@@ -1,16 +1,16 @@
 ## Hi there 👋
 
-<!--
-**0d1ns0n/0d1ns0n** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Telegram - https://t.me/od1nson
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+> Full-stack developer with a focus on real-time systems, Android internals and distributed architectures.
+>
+> **Stack:** Kotlin · Java · Python · TypeScript · JavaScript · C  
+> **Backend:** FastAPI · Spring Boot · Node.js · Express · WebSocket · TCP · REST API  
+> **Frontend:** React · MUI/Joy UI · Vite  
+> **Mobile:** Android (Kotlin/Java) · VPN integration · low-level services · Okhttpclient/Retrofit  
+> **Infra:** Docker · Nginx · Linux · CI/CD  
+> **Other:** Opus audio codec · ProGuard/R8 · Gradle · real-time streaming
+>
+> I build end-to-end — from low-level Android services and audio codecs to async Python backends, Spring Boot document generators, Node.js messengers with custom Android clients, and complex React dashboards with live device control.
+>
+> Comfortable across the entire pipeline: mobile → server → frontend → deploy. Built VPN-integrated Android apps, real-time WebSocket/TCP communication systems, and full-stack platforms with 15+ interconnected components.
