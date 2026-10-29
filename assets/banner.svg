@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05060f"/>
+      <stop offset="1" stop-color="#0b0f1f"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#00ff9f" stroke-opacity="0.12" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00ff9f" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00ff9f" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#00ff9f" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="c1"><rect x="0" y="60" width="900" height="30"/></clipPath>
+    <clipPath id="c2"><rect x="0" y="110" width="900" height="25"/></clipPath>
+    <style>
+      .t{font-family:'Fira Code','JetBrains Mono',Consolas,monospace;font-weight:700;font-size:72px;letter-spacing:6px}
+      .s{font-family:'Fira Code','JetBrains Mono',Consolas,monospace;font-size:16px;letter-spacing:4px;fill:#8b93b5}
+      .main{fill:#eaf2ff;filter:url(#glow)}
+      .cyan{fill:#00ff9f;mix-blend-mode:screen;animation:g1 2.6s infinite steps(1)}
+      .mag{fill:#ff2bd6;mix-blend-mode:screen;animation:g2 2.6s infinite steps(1)}
+      .cur{animation:blink 1s infinite steps(1)}
+      .orb{animation:spin 8s linear infinite;transform-origin:800px 110px}
+      @keyframes g1{0%,88%,100%{transform:translate(0,0);opacity:0}89%{transform:translate(-6px,2px);opacity:.9}92%{transform:translate(5px,-3px);opacity:.9}95%{transform:translate(-3px,1px);opacity:.9}97%{transform:translate(0,0);opacity:0}}
+      @keyframes g2{0%,88%,100%{transform:translate(0,0);opacity:0}90%{transform:translate(6px,-2px);opacity:.9}93%{transform:translate(-5px,3px);opacity:.9}96%{transform:translate(2px,-1px);opacity:.9}98%{transform:translate(0,0);opacity:0}}
+      @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+      @keyframes spin{to{transform:rotate(360deg)}}
+    </style>
+  </defs>
+  <rect width="900" height="220" fill="url(#bg)"/>
+  <rect width="900" height="220" fill="url(#grid)"/>
+  <rect width="900" height="220" fill="none" stroke="#00ff9f" stroke-opacity="0.5" stroke-width="2"/>
+  <path d="M0 0H40V4H4V40H0Z M900 0H860V4H896V40H900Z M0 220H40V216H4V180H0Z M900 220H860V216H896V180H900Z" fill="#00ff9f"/>
+  <g class="orb" opacity="0.8">
+    <circle cx="800" cy="110" r="52" fill="none" stroke="#ff2bd6" stroke-width="1.5" stroke-dasharray="20 14"/>
+    <circle cx="800" cy="110" r="38" fill="none" stroke="#00ff9f" stroke-width="1.5" stroke-dasharray="6 10"/>
+    <circle cx="800" cy="110" r="24" fill="none" stroke="#eaf2ff" stroke-width="1" stroke-dasharray="2 6"/>
+  </g>
+  <circle cx="800" cy="110" r="6" fill="#00ff9f" filter="url(#glow)">
+    <animate attributeName="r" values="4;8;4" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text class="t cyan" x="60" y="118">0d1ns0n</text>
+  <text class="t mag" x="60" y="118">0d1ns0n</text>
+  <text class="t main" x="60" y="118">0d1ns0n</text>
+  <g clip-path="url(#c1)"><text class="t main" x="60" y="118" opacity="0">0d1ns0n<animate attributeName="x" values="60;52;60;66;60" dur="0.25s" begin="2.3s;7.5s;12.1s" /><animate attributeName="opacity" values="0;1;0" dur="0.25s" begin="2.3s;7.5s;12.1s"/></text></g>
+  <g clip-path="url(#c2)"><text class="t main" x="60" y="118" opacity="0">0d1ns0n<animate attributeName="x" values="60;70;60;54;60" dur="0.25s" begin="2.35s;7.55s;12.15s" /><animate attributeName="opacity" values="0;1;0" dur="0.25s" begin="2.35s;7.55s;12.15s"/></text></g>
+  <text class="s" x="62" y="160">&gt; FULL-STACK // REAL-TIME // ANDROID INTERNALS<tspan class="cur" fill="#00ff9f">_</tspan></text>
+  <text class="s" x="62" y="48" fill="#00ff9f" fill-opacity="0.8">[ SYSTEM ONLINE ]</text>
+  <rect width="900" height="60" fill="url(#scan)">
+    <animate attributeName="y" values="-60;220" dur="3.5s" repeatCount="indefinite"/>
+  </rect>
+  <g fill="#00ff9f" fill-opacity="0.15">
+    <rect width="900" height="1" y="0"><animate attributeName="y" values="0;220" dur="0.9s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>
