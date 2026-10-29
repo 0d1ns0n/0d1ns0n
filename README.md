@@ -22,11 +22,11 @@ object Od1ns0n : Engineer {
     val role     = "Full-stack · Real-time · Android internals · RE"
     val fluent   = listOf("Kotlin", "Java", "Python", "TS", "JS", "C++", "C", "Lua")
     val reading  = listOf("Rust", "Go", "C#", "SQL", "Bash/PowerShell")
-    val backend  = listOf("FastAPI", "Spring", "Node", "Next.js", "Prisma", "PostgreSQL")
+    val backend  = listOf("FastAPI", "Spring", "Node", "Next.js", "Postgres")
     val frontend = listOf("React 19", "MUI/Joy", "Vite", "Tailwind")
-    val realtime = listOf("LiveKit", "Daily.co", "WebRTC", "Socket.io", "Opus")
-    val mobile   = listOf("Android", "Compose", "embedded VPN", "OkHttp/Retrofit")
-    val lowlevel = listOf("Qt6", "WinAPI", "DLL injection", "reverse engineering")
+    val realtime = listOf("LiveKit", "Daily", "WebRTC", "Socket.io", "Opus")
+    val mobile   = listOf("Android", "Compose", "embedded VPN", "Retrofit")
+    val lowlevel = listOf("Qt6", "WinAPI", "DLL injection", "reverse eng")
     val infra    = listOf("Docker", "Nginx", "Linux", "CI/CD", "GCP", "Firebase")
 
     fun build() = pipeline(mobile, server, frontend, deploy).withUptime(SLA)
