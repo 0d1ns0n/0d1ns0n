@@ -14,8 +14,8 @@
 <g class="f0"><text class="l" x="40" y="100">CONTRIBUTIONS</text><text class="n" x="40" y="132">5</text><text class="p" x="40" y="148">last 365 days</text></g>
 <g class="f1"><text class="l" x="255" y="100">COMMITS</text><text class="n" x="255" y="132">3</text><text class="p" x="255" y="148">incl. private</text></g>
 <g class="f2"><text class="l" x="40" y="176">PULL REQUESTS</text><text class="n" x="40" y="208">0</text><text class="p" x="40" y="224"></text></g>
-<g class="f3"><text class="l" x="255" y="176">REPOSITORIES</text><text class="n" x="255" y="208">20</text><text class="p" x="255" y="224">owned</text></g>
-<g class="f4"><text class="l" x="40" y="252">PROJECTS</text><text class="n" x="40" y="284">22</text><text class="p" x="40" y="300">touched</text></g>
+<g class="f3"><text class="l" x="255" y="176">REPOSITORIES</text><text class="n" x="255" y="208">3</text><text class="p" x="255" y="224">owned</text></g>
+<g class="f4"><text class="l" x="40" y="252">PROJECTS</text><text class="n" x="40" y="284">5</text><text class="p" x="40" y="300">touched</text></g>
 <g class="f5"><text class="l" x="255" y="252">FOLLOWERS</text><text class="n" x="255" y="284">0</text><text class="p" x="255" y="300"></text></g>
 <text class="h" x="500" y="88">LANGUAGES</text>
 <g class="f6"><text class="ln" x="500" y="113">Kotlin</text><rect x="640" y="106" width="220" height="6" rx="3" fill="#ffffff" fill-opacity="0.06"/><rect x="640" y="106" width="211" height="6" rx="3" fill="#A97BFF" filter="url(#glow)"><animate attributeName="width" from="0" to="211" dur="1.2s" begin="0.30s" fill="freeze"/></rect></g>
