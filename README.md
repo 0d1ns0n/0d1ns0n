@@ -128,7 +128,6 @@ object Od1ns0n : Engineer {
 ## 📌 PINNED
 
 <a href="https://github.com/0d1ns0n/kamazomovi-releases"><img src="https://img.shields.io/badge/Kamazomovi-releases%20%26%20auto--update-00ff9f?style=for-the-badge&logo=github&logoColor=05060f&labelColor=05060f"/></a>
-<a href="https://github.com/0d1ns0n/StudyMavenUnit"><img src="https://img.shields.io/badge/StudyMavenUnit-Java%20%2F%20Maven%20%2F%20JUnit-ff2bd6?style=for-the-badge&logo=apachemaven&logoColor=05060f&labelColor=05060f"/></a>
 
 </div>
 
