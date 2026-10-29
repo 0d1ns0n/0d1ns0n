@@ -92,9 +92,11 @@ object Od1ns0n : Engineer {
 > **Android:** Kotlin · Jetpack Compose · нативные call-клиенты · **встроенный VPN** с failover по пулу
 > серверов и masked-TLS для обхода блокировок · encrypted prefs · foreground-сервисы звонков.
 
-> **🖥 Desktop app reverse engineering & modding** &nbsp;·&nbsp; `c++ / qt6 / winapi`
-> Реверс и модификация десктопного **Qt6**-клиента: мультиаккаунт с полной изоляцией профилей,
-> персистентные сессии, вырезание телеметрии. Низкоуровневая работа с процессами и WinAPI.
+> **🖥 [MAX messenger — reverse engineering](https://github.com/0d1ns0n/max-multiaccount-mod-public)** &nbsp;·&nbsp; `c++ / qt6 / winapi` &nbsp;·&nbsp; `showcase`
+> Независимый реверс закрытого десктопного **Qt6**-клиента MAX: обход single-instance,
+> **полная изоляция профилей** и персистентные сессии, свой детерминированный device-fingerprint
+> на каждый аккаунт, разбор сетевого протокола по бинарю. Методология в три источника истины:
+> статика (декомпилят) + динамика (живой процесс) + сверка по бинарю. **Публичная витрина без кода.**
 
 > **🤖 Remote Android control suite** &nbsp;·&nbsp; `react + python + android` &nbsp;·&nbsp; `private`
 > Сложная связка React-фронт ↔ Python-бэк ↔ Android: удалённое управление устройством и доступ
