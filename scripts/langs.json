@@ -1,0 +1,13 @@
+{
+  "fluent": [
+    {"n": "Kotlin", "c": "#A97BFF"},
+    {"n": "Java", "c": "#b07219"},
+    {"n": "Python", "c": "#3572A5"},
+    {"n": "TypeScript", "c": "#3178c6"},
+    {"n": "JavaScript", "c": "#f1e05a"},
+    {"n": "C++", "c": "#f34b7d"},
+    {"n": "C", "c": "#555555"},
+    {"n": "Lua", "c": "#000080"}
+  ],
+  "reading": ["Rust", "Go", "C#", "SQL / PLpgSQL", "Bash / PowerShell", "HTML / CSS"]
+}

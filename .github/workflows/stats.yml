@@ -20,7 +20,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
-          SKIP_REPOS: zomboid-cheats,zomboid-mods,alife-addons,max-multiaccount-mod
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
