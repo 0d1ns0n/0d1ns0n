@@ -16,8 +16,6 @@
 
 <br/>
 
-<img align="right" width="360" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0d1ns0n&layout=donut-vertical&theme=radical&hide_border=true&bg_color=05060f&title_color=00ff9f&text_color=eaf2ff&langs_count=8"/>
-
 ```kotlin
 object Od1ns0n : Developer {
     override val role     = "Full-stack • Real-time • Android internals"
@@ -31,8 +29,6 @@ object Od1ns0n : Developer {
     override fun build() = pipeline(mobile, server, frontend, deploy)
 }
 ```
-
-<br clear="right"/>
 
 <div align="center">
 
@@ -79,14 +75,12 @@ object Od1ns0n : Developer {
 
 ## 📡 TELEMETRY
 
-<img src="https://github-readme-stats.vercel.app/api?username=0d1ns0n&show_icons=true&count_private=true&include_all_commits=true&theme=radical&hide_border=true&bg_color=05060f&title_color=00ff9f&icon_color=ff2bd6&text_color=eaf2ff&ring_color=00ff9f" height="170"/>
-<img src="https://streak-stats.demolab.com?user=0d1ns0n&theme=radical&hide_border=true&background=05060f&ring=00ff9f&fire=ff2bd6&currStreakLabel=00ff9f&sideLabels=eaf2ff&currStreakNum=eaf2ff&sideNums=eaf2ff&dates=8b93b5" height="170"/>
+<img src="assets/stats.svg" width="100%"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=0d1ns0n&theme=react-dark&bg_color=05060f&color=eaf2ff&line=00ff9f&point=ff2bd6&area=true&area_color=00ff9f&hide_border=true" width="100%"/>
+<img src="https://streak-stats.demolab.com?user=0d1ns0n&theme=radical&hide_border=true&background=05060f&ring=00ff9f&fire=ff2bd6&currStreakLabel=00ff9f&sideLabels=eaf2ff&currStreakNum=eaf2ff&sideNums=eaf2ff&dates=8b93b5" height="170"/>
 
 <img src="https://raw.githubusercontent.com/0d1ns0n/0d1ns0n/output/github-snake-dark.svg" width="100%"/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=0d1ns0n&theme=radical&no-frame=true&no-bg=true&margin-w=8&column=7"/>
 
 </div>
 
@@ -96,8 +90,8 @@ object Od1ns0n : Developer {
 
 ## 📦 DEPLOYED
 
-<a href="https://github.com/0d1ns0n/kamazomovi-releases"><img src="https://github-readme-stats.vercel.app/api/pin/?username=0d1ns0n&repo=kamazomovi-releases&theme=radical&hide_border=true&bg_color=05060f&title_color=00ff9f&icon_color=ff2bd6&text_color=eaf2ff"/></a>
-<a href="https://github.com/0d1ns0n/StudyMavenUnit"><img src="https://github-readme-stats.vercel.app/api/pin/?username=0d1ns0n&repo=StudyMavenUnit&theme=radical&hide_border=true&bg_color=05060f&title_color=00ff9f&icon_color=ff2bd6&text_color=eaf2ff"/></a>
+<a href="https://github.com/0d1ns0n/kamazomovi-releases"><img src="https://img.shields.io/badge/Kamazomovi-releases%20%26%20auto--update-00ff9f?style=for-the-badge&logo=github&logoColor=05060f&labelColor=05060f"/></a>
+<a href="https://github.com/0d1ns0n/StudyMavenUnit"><img src="https://img.shields.io/badge/StudyMavenUnit-Java%20%2F%20Maven%20%2F%20JUnit-ff2bd6?style=for-the-badge&logo=apachemaven&logoColor=05060f&labelColor=05060f"/></a>
 
 </div>
 
