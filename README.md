@@ -4,7 +4,7 @@
 
 <img src="assets/banner.svg" width="100%"/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=2800&pause=700&color=00FF9F&center=true&vCenter=true&multiline=false&repeat=true&width=760&height=60&lines=Full-stack+engineer+%7C+real-time+systems;Android+internals+%E2%80%A2+VPN+%E2%80%A2+low-level+services;WebRTC+%2F+LiveKit+%2F+Daily+%E2%80%94+calls+%26+screen+share;Reverse+engineering+%E2%80%A2+desktop+app+modding;From+bare+sockets+to+React+dashboards;15%2B+interconnected+components+in+production" alt="typing"/></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=2800&pause=700&color=00FF9F&center=true&vCenter=true&multiline=false&repeat=true&width=760&height=60&lines=Full-stack+engineer+%7C+real-time+systems;Explainable+AI+agents+%E2%80%A2+local-first+%E2%80%A2+digital+twins;Android+internals+%E2%80%A2+VPN+%E2%80%A2+low-level+services;WebRTC+%2F+LiveKit+%2F+Daily+%E2%80%94+calls+%26+screen+share;Reverse+engineering+%E2%80%A2+desktop+app+modding;From+bare+sockets+to+React+dashboards;15%2B+interconnected+components+in+production" alt="typing"/></a>
 
 <br/>
 
@@ -66,7 +66,24 @@ object Od1ns0n : Engineer {
 
 ## 🛰 SELECTED WORK
 
+<a href="https://github.com/0d1ns0n/iam-agent-showcase"><img src="https://img.shields.io/badge/%E2%AD%90%20IAM-AI%20agent%20%C2%B7%20digital%20twin-00ff9f?style=for-the-badge&logo=python&logoColor=05060f&labelColor=05060f"/></a>
+<a href="https://github.com/0d1ns0n/expedite"><img src="https://img.shields.io/badge/%E2%AD%90%20Expedite-last--mile%20logistics-ff2bd6?style=for-the-badge&logo=telegram&logoColor=05060f&labelColor=05060f"/></a>
+
+<sub>⭐ публичные витрины — кликабельно, код приватный</sub>
+
 </div>
+
+> **🧠 [IAM — персональный AI-агент](https://github.com/0d1ns0n/iam-agent-showcase)** &nbsp;·&nbsp; `python · llm · local-first`
+> Цифровой двойник переписки: снимает «нейрослепок» стиля из архива Telegram и готовит ответы в твоей манере.
+> **Объяснимая метапамять** — правила поведения с основанием и счётчиком подтверждений, не чёрный ящик.
+> **Обучение на правках без дообучения модели**, семантический recall на SQLite FTS5/bm25 — без внешних
+> векторных БД, всё локально. Многоуровневые предохранители авто-режима: стоп-слова, лимиты, human-in-the-loop.
+> **~9 000 строк, критичные места покрыты тестами.**
+
+> **⚡ [Expedite — last-mile logistics](https://github.com/0d1ns0n/expedite)** &nbsp;·&nbsp; `product · telegram bot · nova poshta`
+> Ускорение уже прибывшей посылки по инициативе получателя. Живой прототип-бот на **реальном API Новой Почты**.
+> Ключевая инженерная идея: **цену и решение считает детерминированный код — LLM только объясняет и не может
+> «нагаллюцинировать» цену.** Предсказуемо, объяснимо, каждый шаг логируется. Defensive publication с фиксацией авторства.
 
 > **🔐 Corporate messenger — full platform** &nbsp;·&nbsp; `web + android`
 > Собственный мессенджер уровня Telegram: 1-на-1 и групповые чаты, вложения, голосовые с
@@ -127,6 +144,8 @@ object Od1ns0n : Engineer {
 
 ## 📌 PINNED
 
+<a href="https://github.com/0d1ns0n/iam-agent-showcase"><img src="https://img.shields.io/badge/IAM-AI%20agent%20%C2%B7%20digital%20twin-00ff9f?style=for-the-badge&logo=python&logoColor=05060f&labelColor=05060f"/></a>
+<a href="https://github.com/0d1ns0n/expedite"><img src="https://img.shields.io/badge/Expedite-last--mile%20logistics-ff2bd6?style=for-the-badge&logo=telegram&logoColor=05060f&labelColor=05060f"/></a>
 <a href="https://github.com/0d1ns0n/kamazomovi-releases"><img src="https://img.shields.io/badge/Kamazomovi-releases%20%26%20auto--update-00ff9f?style=for-the-badge&logo=github&logoColor=05060f&labelColor=05060f"/></a>
 
 </div>
