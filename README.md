@@ -19,17 +19,17 @@
 
 ```kotlin
 object Od1ns0n : Engineer {
-    override val role      = "Full-stack • Real-time • Android internals • Reverse engineering"
-    override val fluent    = listOf("Kotlin", "Java", "Python", "TypeScript", "JavaScript", "C++", "C", "Lua")
-    override val reading   = listOf("Rust", "Go", "C#", "SQL/PLpgSQL", "Bash/PowerShell")
-    override val backend   = listOf("FastAPI", "Spring Boot", "Node.js", "Next.js", "WebSocket", "TCP", "Prisma", "PostgreSQL")
-    override val frontend  = listOf("React 19", "MUI/Joy", "Vite", "Tailwind")
-    override val realtime  = listOf("LiveKit", "Daily.co", "WebRTC", "Socket.io", "Opus codec")
-    override val mobile    = listOf("Android", "Jetpack Compose", "embedded VPN", "low-level services", "OkHttp/Retrofit")
-    override val lowlevel  = listOf("Qt6 internals", "WinAPI", "DLL injection", "reverse engineering", "ProGuard/R8")
-    override val infra     = listOf("Docker", "Nginx", "Linux", "CI/CD", "Google Cloud", "Firebase FCM")
+    val role     = "Full-stack · Real-time · Android internals · RE"
+    val fluent   = listOf("Kotlin", "Java", "Python", "TS", "JS", "C++", "C", "Lua")
+    val reading  = listOf("Rust", "Go", "C#", "SQL", "Bash/PowerShell")
+    val backend  = listOf("FastAPI", "Spring", "Node", "Next.js", "Prisma", "PostgreSQL")
+    val frontend = listOf("React 19", "MUI/Joy", "Vite", "Tailwind")
+    val realtime = listOf("LiveKit", "Daily.co", "WebRTC", "Socket.io", "Opus")
+    val mobile   = listOf("Android", "Compose", "embedded VPN", "OkHttp/Retrofit")
+    val lowlevel = listOf("Qt6", "WinAPI", "DLL injection", "reverse engineering")
+    val infra    = listOf("Docker", "Nginx", "Linux", "CI/CD", "GCP", "Firebase")
 
-    override fun build() = pipeline(mobile, server, frontend, deploy).withUptime(SLA)
+    fun build() = pipeline(mobile, server, frontend, deploy).withUptime(SLA)
 }
 ```
 
